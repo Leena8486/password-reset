@@ -19,7 +19,7 @@ const PasswordReset = () => {
         setMessage(""); //clear the previous messages
 
         try {
-        const res = await fetch("https://fsd-demo-3-2.onrender.com/api/users/password-reset", {
+        const res = await fetch("https://password-reset-1-2d8z.onrender.com/api/users/password-reset", {
                 method: "POST",
                 headers: {
                     "Content-type" : "application/json"
